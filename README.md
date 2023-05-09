@@ -5,6 +5,7 @@ Data Analysis for Time Series Analysis
 - [ ] LSTM
 - [ ] CNN
 - [ ] Prophet
+- [ ] GRU
 - [ ] CNN + LSTM
 
 ## Historical 데이터분석 + RealTime 데이터분석
@@ -41,5 +42,18 @@ Data Analysis for Time Series Analysis
 단, 여전히 api로 실시간 데이터를 불러와 json을 csv로 저장하거나, 기존 데이터에 append할 수 있도록 준비하는 것은 중요하다.
 
 - [ ] unix timestamps
+
   - 장점: 데이터 타입을 string이 아닌 long으로 받을 수 있다.
   - 단점: 인코딩 과정 필요(pd.to_datetime(..., unit='s')를 사용할 수 없는 경우 format으로 해결해야 한다.)
+
+- [ ] Dataset
+      data의 인덱스를 아래와 같이 고정.
+
+| Key       | Desc.      |
+| :-------- | :--------- |
+| timestamp | 날짜(시간) |
+| open      | 시가       |
+| close     | 종가       |
+| high      | 고가       |
+| low       | 저가       |
+| vol       | 볼륨       |
