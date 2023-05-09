@@ -2,7 +2,13 @@
 
 Data Analysis for Time Series Analysis
 
-- [x] CNN @23-05-09
+- [] CNN(1D) @23-05-09
+  - [x] ~~Conv1D Historical Implementation~~
+    > 1시간, 5분 구현에 성공했으나, 가중치에 따른 편차가 크고, 레이어 구성이 단순하여 지나친 일반화가 의심됨.
+  - [ ] Conv1D Forecasting
+- [ ] CNN(2D)
+  - [ ] Conv2D Historical Implementation
+  - [ ] Conv2D Forecasting
 - [ ] LSTM
 - [ ] Prophet
 - [ ] GRU
@@ -14,6 +20,8 @@ Data Analysis for Time Series Analysis
 - [A Comprehensive Guide on using Flask for Data Science](https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-using-flask-for-data-science/)
 
 - [Building a Machine Learning Web Application Using Flask](https://towardsdatascience.com/building-a-machine-learning-web-application-using-flask-29fa9ea11dac)
+
+- [Deploying an ML web app using Flask](https://levelup.gitconnected.com/deploying-ml-web-app-using-flask-334367735777)
 
 ```bash
 .
@@ -36,6 +44,8 @@ Data Analysis for Time Series Analysis
   └── README.md
 ```
 
+> style은 cdn으로 연결.
+
 ## Historical 데이터분석 + RealTime 데이터분석
 
 > 기존 데이터를 불러와 분석결과를 표시하는 것과 실시간 데이터를 불러와 분석하는 방법 제시.
@@ -49,16 +59,19 @@ Data Analysis for Time Series Analysis
 - loss: training data에 대한 오차
 - val_loss: validation data에 대한 오차
 
+#### Overfitting
+
 모델 학습이 잘 이루어졌다면, loss와 val*loss가 모두 낮아지는 경향을 보인다. 그러나 모델이 overfitting 되었다면 loss는 계속 감소하지만 val_loss는 증가할 수도 있다. 이는 모델이 training data에만 과적합되어 \_unseen*데이터에 대한 일반화 성능이 떨어질 가능성이 크기 때문에, 모델 구조나 학습 방법을 조정해야 한다.
 
 ![overfitting.png](./assets/overfitting.png)
 
-이와 같은 과적합은 모델을 구성하면서 학습데이터에 대해 과도하게 최적화되어 있어 다른 데이터에 대한 일반화 성능이 떨어지기 때문이다.
+이와 같은 과적합은 모델을 구성하면서 학습데이터에 대해 과도하게 최적화되어 있어 다른 데이터에 대한 일반화 성능이 떨어지기 때문이다(아래는 epochs의 진행에 따라 loss와 val_loss가 0에 수렴하는 이상적인 그래프).
+![ideal.png](./assets/ideal.png)
 
 ### Optimizer
 
 1. `adam`
-2. `RMSprop`(Root Mean Sqaure Propagation)
+2. ~~`RMSprop`(Root Mean Sqaure Propagation)~~
 
 ## Issues
 
@@ -69,15 +82,14 @@ Data Analysis for Time Series Analysis
 
 단, 여전히 api로 실시간 데이터를 불러와 json을 csv로 저장하거나, 기존 데이터에 append할 수 있도록 준비하는 것은 중요하다.
 
-- [ ] unix timestamps
+- [x] ~~unix timestamps~~
 
   - 장점: 데이터 타입을 string이 아닌 long으로 받을 수 있다.
   - 단점: 인코딩 과정 필요(pd.to_datetime(..., unit='s')를 사용할 수 없는 경우 format으로 해결해야 한다.)
 
-- [ ] Dataset
-
-      - data의 인덱스를 아래와 같이 고정.
-      - ~~dataset은 plato에 비공개~~
+- [ ] Dataset _보류_
+  - data의 인덱스를 아래와 같이 고정.
+  - ~~dataset은 plato에 비공개~~
 
 | Key       | Desc.      |
 | :-------- | :--------- |
