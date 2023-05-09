@@ -2,11 +2,39 @@
 
 Data Analysis for Time Series Analysis
 
+- [x] CNN @23-05-09
 - [ ] LSTM
-- [ ] CNN
 - [ ] Prophet
 - [ ] GRU
 - [ ] CNN + LSTM
+- [ ] Flask
+
+## Flask
+
+- [A Comprehensive Guide on using Flask for Data Science](https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-on-using-flask-for-data-science/)
+
+- [Building a Machine Learning Web Application Using Flask](https://towardsdatascience.com/building-a-machine-learning-web-application-using-flask-29fa9ea11dac)
+
+```bash
+.
+└──Flask-App
+  ├── /app
+  │   ├── run.py
+  │   ├── index.html
+  │   └── /templates
+  ├── /data
+  ├── /notebook
+  ├── /model
+  │   ├── classifier.py
+  │   └── loan_data.pkl
+  ├── /static
+  │   └── /src
+  ├── /utils
+  ├── run.py
+  ├── pipfile
+  ├── pipfile.lock
+  └── README.md
+```
 
 ## Historical 데이터분석 + RealTime 데이터분석
 
@@ -47,7 +75,9 @@ Data Analysis for Time Series Analysis
   - 단점: 인코딩 과정 필요(pd.to_datetime(..., unit='s')를 사용할 수 없는 경우 format으로 해결해야 한다.)
 
 - [ ] Dataset
-      data의 인덱스를 아래와 같이 고정.
+
+      - data의 인덱스를 아래와 같이 고정.
+      - ~~dataset은 plato에 비공개~~
 
 | Key       | Desc.      |
 | :-------- | :--------- |
