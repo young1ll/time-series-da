@@ -2,7 +2,11 @@
 
 Data Analysis for Time Series Analysis
 
-- [] CNN(1D) @23-05-09
+- [가상환경구성하기](./docs/%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD%EA%B5%AC%EC%84%B1.md)
+
+---
+
+- [ ] CNN(1D) @23-05-09
   - [x] ~~Conv1D Historical Implementation~~
     > 1시간, 5분 구현에 성공했으나, 가중치에 따른 편차가 크고, 레이어 구성이 단순하여 지나친 일반화가 의심됨.
   - [ ] Conv1D Forecasting
