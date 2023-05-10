@@ -2,12 +2,12 @@
 
 Data Analysis for Time Series Analysis
 
-- ![Python v3.11](https://img.shields.io/badge/python-v3.11-3670A0?style=flat&logo=python&logoColor=ffdd54)
-- ![pip v23.1.2](https://img.shields.io/badge/pip-v23.1.2-3670A0?style=flat&logo=python&logoColor=ffdd54)
+![Python v3.11](https://img.shields.io/badge/python-v3.11-3670A0?style=flat&logo=python&logoColor=ffdd54)
+![pip v23.1.2](https://img.shields.io/badge/pip-v23.1.2-3670A0?style=flat&logo=python&logoColor=ffdd54)
 
 - [가상환경구성하기](./docs/%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD%EA%B5%AC%EC%84%B1.md)
 
-### 참고자료
+## 참고자료
 
 - [딥러닝을 이용한 비트코인 가격 예측 비교연구](./docs/A_Comparative_Study_of_Bitcoin_Price_Prediction_Us.pdf)
 
@@ -30,7 +30,7 @@ jupyter lab
 
 ---
 
-## ToDo
+## TODO
 
 - [ ] CNN(1D)
   - [x] ~~Conv1D Historical Implementation~~ @23-05-09
@@ -40,6 +40,8 @@ jupyter lab
 - [ ] CNN(2D)
   - [ ] Conv2D Historical Implementation
   - [ ] Conv2D Forecasting
+- [ ] CNN+LSTM
+  - LSTM의 구조를 생각하면서 Conv1D or Conv2D lqyer가 넘어가는지, 안으로 들어가는지 생각해볼 것.
 - [ ] LSTM
 - [ ] Prophet
 - [ ] GRU
