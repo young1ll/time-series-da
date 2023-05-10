@@ -7,6 +7,10 @@ Data Analysis for Time Series Analysis
 
 - [가상환경구성하기](./docs/%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD%EA%B5%AC%EC%84%B1.md)
 
+### 참고자료
+
+- [딥러닝을 이용한 비트코인 가격 예측 비교연구](./docs/A_Comparative_Study_of_Bitcoin_Price_Prediction_Us.pdf)
+
 ## Getting Started
 
 1. 가상환경 실행
@@ -26,10 +30,13 @@ jupyter lab
 
 ---
 
-- [ ] CNN(1D) @23-05-09
-  - [x] ~~Conv1D Historical Implementation~~
+## ToDo
+
+- [ ] CNN(1D)
+  - [x] ~~Conv1D Historical Implementation~~ @23-05-09
     > 1시간, 5분 구현에 성공했으나, 가중치에 따른 편차가 크고, 레이어 구성이 단순하여 지나친 일반화가 의심됨.
   - [ ] Conv1D Forecasting
+    - 생성한 모델로 신규데이터에 대한 예측 도출
 - [ ] CNN(2D)
   - [ ] Conv2D Historical Implementation
   - [ ] Conv2D Forecasting
