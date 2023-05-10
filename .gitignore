@@ -61,6 +61,11 @@ coverage.xml
 .pytest_cache/
 cover/
 
+# weights for deep learning
+weights_*/
+*.h5
+*.hdf5
+
 # Translations
 *.mo
 *.pot
