@@ -6,6 +6,8 @@ Data Analysis for Time Series Analysis
 ![pip v23.1.2](https://img.shields.io/badge/pip-v23.1.2-3670A0?style=flat&logo=python&logoColor=ffdd54)
 
 - [가상환경구성하기](./docs/%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD%EA%B5%AC%EC%84%B1.md)
+- [데이터분석 종합 문서(notebook)](./notebook/Data%20Analysis%20Comprehensive.ipynb)
+- [Datasets](#dataset-보류)
 
 ## 참고자료
 
@@ -33,16 +35,24 @@ jupyter lab
 ## TODO
 
 - [ ] CNN(1D)
+
   - [x] ~~Conv1D Historical Implementation~~ @23-05-09
     > 1시간, 5분 구현에 성공했으나, 가중치에 따른 편차가 크고, 레이어 구성이 단순하여 지나친 일반화가 의심됨.
+  - [x] ~~Correlation Analysis~~
+
+    > - ~~SP500(Price, Rumor, Stocks, Events)-BTC~~
+    > - Gold-BTC
+
   - [ ] Conv1D Forecasting
-    - 생성한 모델로 신규데이터에 대한 예측 도출
+
+- 생성한 모델로 신규데이터에 대한 예측 도출
+
 - [ ] CNN(2D)
   - [ ] Conv2D Historical Implementation
   - [ ] Conv2D Forecasting
+- [ ] LSTM
 - [ ] CNN+LSTM
   - LSTM의 구조를 생각하면서 Conv1D or Conv2D lqyer가 넘어가는지, 안으로 들어가는지 생각해볼 것.
-- [ ] LSTM
 - [ ] Prophet
 - [ ] GRU
 - [ ] CNN + LSTM
@@ -85,7 +95,11 @@ jupyter lab
 
 이를 구현하기 위해, 코인 별(위 경우, 비트코인)로 오로지 하나의 data만을 가지고 있는 것이 좋다. 데이터가 추가되는 경우 `append`한다.
 
-## Conv1D
+## 상관분석
+
+본 프로젝트에서 활용하는 데이터는 timestamp를 인덱스로 가진 연속형 데이터로, `pandas`의 `corr()` 연산을 사용할 수 있고, 쉽게 상관분석이 가능하다.
+
+## Memos
 
 ### loss and val_loss
 
@@ -120,9 +134,10 @@ jupyter lab
   - 장점: 데이터 타입을 string이 아닌 long으로 받을 수 있다.
   - 단점: 인코딩 과정 필요(pd.to_datetime(..., unit='s')를 사용할 수 없는 경우 format으로 해결해야 한다.)
 
-- [ ] Dataset _보류_
-  - data의 인덱스를 아래와 같이 고정.
-  - ~~dataset은 plato에 비공개~~
+## Dataset _보류_
+
+- data의 인덱스를 아래와 같이 고정.
+- ~~dataset은 plato에 비공개~~
 
 | Key       | Desc.      |
 | :-------- | :--------- |
@@ -132,3 +147,10 @@ jupyter lab
 | high      | 고가       |
 | low       | 저가       |
 | vol       | 볼륨       |
+
+- [투자자기준 10년 만기 미국채 수익률](./data/DGS10.csv)
+- [GoldUSD Daily 19941206-20211206](./data/Gold_Daily.csv)
+- [Stock-NewsEventsSentiments](./data/data.parquet)
+- [BTCUSD Daily 20140917-20230504](./data/btc-usd-2014-2023.csv)
+- [BTCUSD Daily 20120808-20230508](./data/2012to2023BTC-USD_investing.csv)
+- [BTCUSD Minutely 20180714-20180826](./data/BTC-USD.csv): unixtimstamp
