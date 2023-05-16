@@ -56,6 +56,7 @@ jupyter lab
 - [ ] Prophet
 - [ ] GRU
 - [ ] CNN + LSTM
+- [ ] 데이터 분석 보고서 작성
 - [ ] Flask
 
 ## Flask
