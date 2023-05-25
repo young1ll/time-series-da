@@ -53,10 +53,10 @@ jupyter lab
 - [ ] LSTM
 - [ ] CNN+LSTM
   - LSTM의 구조를 생각하면서 Conv1D or Conv2D lqyer가 넘어가는지, 안으로 들어가는지 생각해볼 것.
-- [ ] Prophet
+- [ ] ~~Prophet~~
 - [ ] GRU
 - [ ] CNN + LSTM
-- [ ] 데이터 분석 보고서 작성
+- [ ] 데이터 분석 보고서 작성 :진행중
 - [ ] Flask
 
 ## Flask
