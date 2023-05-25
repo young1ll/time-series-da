@@ -6,7 +6,8 @@ Data Analysis for Time Series Analysis
 ![pip v23.1.2](https://img.shields.io/badge/pip-v23.1.2-3670A0?style=flat&logo=python&logoColor=ffdd54)
 
 - [가상환경구성하기](./docs/%EA%B0%80%EC%83%81%ED%99%98%EA%B2%BD%EA%B5%AC%EC%84%B1.md)
-- [데이터분석 종합 문서(notebook)](./notebook/Data%20Analysis%20Comprehensive.ipynb)
+- [데이터분석 종합 문서(학습: notebook)](./notebook/Data%20Analysis%20Comprehensive.ipynb)
+- [데이터분석 종합 문서(보고서: notebook)](./upbitAnalyzer_data_analysis_report.ipynb)
 - [Datasets](#dataset-보류)
 
 ## 참고자료
