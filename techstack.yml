@@ -2,11 +2,11 @@ repo_name: young1ll/time-series-da
 report_id: 8ac1c729305fc438d78aafd82cf3607b
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-28T13:44:24+00:00'
+timestamp: '2024-01-05T08:15:18+00:00'
 requested_by: young1ll
 provider: github
 branch: main
-detected_tools_count: 122
+detected_tools_count: 123
 tools:
 - name: Jinja
   description: Full featured template engine for Python
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/young1ll/time-series-da/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: young1ll
   last_updated_on: 2023-05-10 06:00:47.000000000 Z
@@ -29,6 +30,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/young1ll/time-series-da
   detection_source: Repo Metadata
 - name: Matplotlib
   description: A plotting library for the Python programming language
@@ -38,6 +40,7 @@ tools:
   category: Libraries
   sub_category: Charting Libraries
   image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/young1ll/time-series-da/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: young1ll
   last_updated_on: 2023-05-10 06:00:47.000000000 Z
@@ -62,6 +65,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/young1ll/time-series-da
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -71,6 +75,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/young1ll/time-series-da/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: young1ll
   last_updated_on: 2023-05-09 17:08:32.000000000 Z
@@ -82,6 +87,7 @@ tools:
   category: Assets and Media
   sub_category: File Conversion
   image_url: https://img.stackshare.io/service/2330/no-img-open-source.png
+  detection_source_url: https://github.com/young1ll/time-series-da/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: young1ll
   last_updated_on: 2023-05-10 06:00:47.000000000 Z
@@ -93,6 +99,7 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/young1ll/time-series-da/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: young1ll
   last_updated_on: 2023-05-09 17:08:32.000000000 Z
@@ -104,6 +111,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Shells
   image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/young1ll/time-series-da/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: young1ll
   last_updated_on: 2023-05-31 05:46:03.000000000 Z
@@ -116,6 +124,7 @@ tools:
   category: Application Utilities
   sub_category: Data Science Notebooks
   image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/young1ll/time-series-da
   detection_source: Repo Metadata
 - name: NumPy
   description: Fundamental package for scientific computing with Python
@@ -168,6 +177,7 @@ tools:
   category: Application Utilities
   sub_category: Machine Learning Tools
   image_url: https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png
+  detection_source_url: https://github.com/young1ll/time-series-da/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: young1ll
   last_updated_on: 2023-05-31 05:46:03.000000000 Z
@@ -1759,6 +1769,20 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19910/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/young1ll/time-series-da/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: young1ll
+  last_updated_on: 2023-05-31 05:46:03.000000000 Z
+- name: websockets
+  description: An implementation of the WebSocket Protocol
+  package_url: https://pypi.org/project/websockets
+  version: 11.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19951/default_fbe690a687f1af7dc36ac3d526708be3294c4cc9.png
   detection_source_url: https://github.com/young1ll/time-series-da/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: young1ll
