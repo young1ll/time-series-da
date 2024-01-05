@@ -46,7 +46,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [young1ll/time-series-da](https://github.com/young1ll/time-series-da)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|122<br/>Tools used|12/28/23 <br/>Report generated|
+|123<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -196,9 +196,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (107)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (108)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (107)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (108)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -307,6 +307,7 @@ Full tech stack [here](/techstack.md)
 |[webcolors](https://pypi.org/project/webcolors)|v1.13|05/10/23|young1ll |BSD-3-Clause|N/A|
 |[webencodings](https://pypi.org/project/webencodings)|v0.5.1|05/10/23|young1ll |BSD-3-Clause|N/A|
 |[websocket-client](https://pypi.org/project/websocket-client)|v1.5.1|05/31/23|young1ll |Apache-2.0|N/A|
+|[websockets](https://pypi.org/project/websockets)|v11.0.3|05/31/23|young1ll |BSD-3-Clause|N/A|
 |[wrapt](https://pypi.org/project/wrapt)|v1.14.1|05/09/23|young1ll |BSD-2-Clause|N/A|
 |[yarl](https://pypi.org/project/yarl)|v1.9.2|05/31/23|young1ll |Apache-2.0|N/A|
 
